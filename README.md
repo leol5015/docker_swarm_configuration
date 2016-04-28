@@ -5,7 +5,7 @@
  frequently along the path. To begin with almost all docker documentation is either writen for toy
  examples that either only use docker instance or all the instances are virtual machines run in
  docker toolbox on a local machine. Which is nice from an  ease of use perspective but not the most
- helpfull when trying to asses how to confugure a custom cluster on dedicated hardware. Docker also
+ help full when trying to asses how to configure a custom cluster on dedicated hardware. Docker also
  has several documents that cover how to set up more production ready setups, but these examples are
  almost exclusively made for AWS or similar cloud services. Which introduces a lot of extra details
  that confuse the core information, for people that for one reason or another need to host their
