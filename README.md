@@ -310,7 +310,7 @@ root@10.0.1.3> weave connect 10.0.1.1 10.0.1.2
  simply prepend your docker command with '-H :4000' such that `docker ps -a` becomes
  `docker -H :4000 ps -a`
 
- ## Testing
+## Testing
 
  The first step for verifying that we have everything up and running is to run docker info on the
  swarm engine. This should look something like this.
