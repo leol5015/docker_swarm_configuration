@@ -232,13 +232,13 @@ WantedBy=multi-user.target
  10.0.1.1 10.0.1.2 and 10.0.1.3 we would run the following three commands to connect the network.
 
 ```
-root@10.0.1.1> weave connect 10.0.1.2:12375 10.0.1.3:12375
+root@10.0.1.1> weave connect 10.0.1.2 10.0.1.3
 ```
 ```
-root@10.0.1.2> weave connect 10.0.1.1:12375 10.0.1.3:12375
+root@10.0.1.2> weave connect 10.0.1.1 10.0.1.3
 ```
 ```
-root@10.0.1.3> weave connect 10.0.1.1:12375 10.0.1.2:12375
+root@10.0.1.3> weave connect 10.0.1.1 10.0.1.2
 ```
 
  It is possible that weave could use a peer discovery system to find the other servers as we are
